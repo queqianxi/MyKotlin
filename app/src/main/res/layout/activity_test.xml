@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.rengwuxian.TestAct">
+
+    <com.ww.study.MyTimeView
+        android:id="@+id/timeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#efefef"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <com.ww.study.PieView
+        android:id="@+id/pieView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+    <com.ww.study.CircleImageView
+        android:id="@+id/ivCircle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <com.ww.study.MyTextView
+        android:id="@+id/tvMulti"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+    <com.ww.study.CameraView
+        android:id="@+id/cameraView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+    <com.ww.study.MyTopFloatEditText
+        android:id="@+id/etFloat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="500dp"
+        android:textSize="25sp"
+        android:hint="textData"
+        android:visibility="gone"/>
+    <include layout="@layout/layout_tab"/>
+    <com.ww.study.BigImageView
+        android:id="@+id/ivBig"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

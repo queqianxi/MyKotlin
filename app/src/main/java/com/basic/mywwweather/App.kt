@@ -13,7 +13,7 @@ class App : Application(){
     companion object{
         @SuppressLint("StaticFieldLeak")
         lateinit var context: Context
-        const val WEATHER_TOKEN = "获取到的令牌值"
+        const val WEATHER_TOKEN = "0ZGFRDqu6MZitIAC"
     }
 
     override fun onCreate() {

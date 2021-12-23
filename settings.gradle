@@ -1,2 +1,4 @@
+include ':Study'
 include ':app'
+include ':algorithm'
 rootProject.name = "MyWwWeather"
